@@ -1,31 +1,32 @@
-# CodeX - Code Collaboration Platform
+# WeCode Studio 🚀  
+### Real-Time Code Collaboration Platform
 
 <div align="center">
-  <a href="https://codex.dulapahv.dev/">
-    <img src="apps/client/public/images/cover.png" width="630" alt="codex cover image"/>
-  </a>
+  <img src="apps/client/public/images/cover.png" width="630" alt="WeCode Studio cover image"/>
 </div>
 
 <br />
 
-<div align="center">
-  <a href="https://github.com/dulapahv/CodeX/actions/workflows/playwright.yml"><img src="https://github.com/dulapahv/CodeX/actions/workflows/playwright.yml/badge.svg"></a>
-  <a href="https://github.com/dulapahv/CodeX/actions/workflows/jest.yml"><img src="https://github.com/dulapahv/CodeX/actions/workflows/jest.yml/badge.svg"></a>
-</div>
-<div align="center">
-  <a href="https://github.com/dulapahv/CodeX/issues"><img src="https://img.shields.io/github/issues/dulapahv/CodeX.svg?style=flat" /></a>
-<!--   <a href="https://codeclimate.com/github/dulapahv/CodeX/maintainability"><img src="https://api.codeclimate.com/v1/badges/3984a19491b5e90cfa08/maintainability" /></a> -->
-</div>
+**WeCode Studio** is a real-time collaborative coding platform that allows multiple users to write, edit, and execute code together in a shared environment.  
+It supports live code synchronization, cursor sharing, shared terminals, live previews, and integrated communication tools.
 
-<br />
+---
 
-**CodeX is an online code collaboration platform that enables real-time coding, cursor sharing, live UI preview, and video communication with integrated Git support—no sign-up required.**
+## 🎓 Academic Context
 
-**✨ Try now at [codex.dulapahv.dev](https://codex.dulapahv.dev/)**
+This project is developed as a **Final Year Major Project** for the Bachelor of Engineering program.
 
-> This project is part of the course "COMPSCI4025P Level 4 Individual Project" at the University of Glasgow.
+**Developed & Customized By:**  
+**Shruti Yeole**  
+Usha Mittal Institute of Technology  
 
-For detailed usage instructions and feature documentation, please see the **[User Manual](manual.md)**.
+> This project is a customized and extended version of an open-source collaborative coding system.  
+> Enhancements include rebranding, documentation restructuring, feature customization, and academic adaptation.
+
+---
+
+For detailed usage instructions and feature documentation, please refer to the **[User Manual](manual.md)**.
+
 
 ## Features
 
@@ -38,7 +39,9 @@ For detailed usage instructions and feature documentation, please see the **[Use
 
 ## Table of Contents
 
-- [CodeX - Code Collaboration Platform](#codex---code-collaboration-platform)
+- [WeCode Studio 🚀](#wecode-studio-)
+    - [Real-Time Code Collaboration Platform](#real-time-code-collaboration-platform)
+  - [🎓 Academic Context](#-academic-context)
   - [Features](#features)
   - [Table of Contents](#table-of-contents)
   - [Project Structure](#project-structure)
