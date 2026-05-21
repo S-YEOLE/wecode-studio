@@ -5,7 +5,7 @@
  * - External URL handling
  * - Accessibility support
  *
- * By Dulapah Vibulsanti (https://dulapahv.dev)
+ * Customized and extended by Shruti Yeole as part of a Final Year Major Project.
  */
 
 import Image from 'next/image';
@@ -34,7 +34,7 @@ const ExternalLink = ({ forceDark = false }: ExternalLinkProps) => {
         >
           <Image
             src="/images/codex-logo.svg"
-            alt="Mirai logo"
+            alt="WeCode Studio logo"
             className="mr-2"
             width={16}
             height={16}
@@ -64,7 +64,7 @@ const ExternalLink = ({ forceDark = false }: ExternalLinkProps) => {
           href={REPO_URL}
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Visit CodeX GitHub repository (opens in new tab)"
+          aria-label="Visit WeCode Studio GitHub repository (opens in new tab)"
         >
           <Image
             src={`/images/${resolvedTheme === 'light' && !forceDark ? 'octocat' : 'octocat-white'}.svg`}
@@ -73,7 +73,7 @@ const ExternalLink = ({ forceDark = false }: ExternalLinkProps) => {
             width={16}
             height={16}
           />
-          CodeX GitHub
+          WeCode Studio GitHub
         </a>
       </Button>
       <Button variant="outline" size="sm" asChild>

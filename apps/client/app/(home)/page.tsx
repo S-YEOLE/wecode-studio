@@ -6,7 +6,7 @@
  * - About and latency test buttons
  * - Server status indicator
  *
- * By Dulapah Vibulsanti (https://dulapahv.dev)
+ * Customized and extended by Shruti Yeole as part of a Final Year Major Project.
  */
 
 import { Suspense } from 'react';
@@ -18,6 +18,7 @@ import { LatencyTestButton } from '@/components/latency-test-button';
 import { RoomAccessForm } from '@/components/room-access-form';
 import { ShowcaseGrid } from '@/components/showcase-grid';
 import { Status } from '@/components/status';
+
 
 export default async function Page({ searchParams }: PageProps<'/'>) {
   const params = await searchParams;
@@ -45,22 +46,18 @@ export default async function Page({ searchParams }: PageProps<'/'>) {
               <h1 className="text-foreground flex flex-row items-start gap-2 text-4xl font-bold tracking-tight sm:text-5xl">
                 <Image
                   src="/images/codex-logo.svg"
-                  alt="CodeX Logo"
+                  alt="WeCode Studio Logo"
                   width={96}
                   height={96}
                   className="size-20 min-[1189px]:size-24"
                   priority
                 />
-                <div className="flex flex-col items-start text-start">
-                  <span>Code together</span>
-                  <span className="flex items-end gap-2 min-[1189px]:items-baseline">
-                    <span>now on</span>
-                    <span
-                      className="bg-gradient-to-r from-[#fb568a] to-[#e456fb] bg-clip-text text-transparent
-                        drop-shadow-[0_0_8px_rgba(255,255,255,0.1)]"
-                    >
-                      CodeX
-                    </span>
+                <div className="flex flex-col items-start text-start justify-center h-20 min-[1189px]:h-24">
+                  <span
+                    className="bg-gradient-to-r from-[#fb568a] to-[#e456fb] bg-clip-text text-transparent
+                      drop-shadow-[0_0_8px_rgba(255,255,255,0.1)]"
+                  >
+                    WeCode Studio
                   </span>
                 </div>
               </h1>
@@ -87,6 +84,9 @@ export default async function Page({ searchParams }: PageProps<'/'>) {
           <Status />
           <LatencyTestButton />
           <AboutButton />
+        </div>
+        <div className="dark fixed bottom-3 left-1/2 -translate-x-1/2 text-sm opacity-70">
+          Developed by Shruti Yeole & Sejal Patil
         </div>
       </main>
     </>

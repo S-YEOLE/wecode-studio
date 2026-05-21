@@ -41,3 +41,9 @@
 
 # Misc
 .eslintcache
+
+# Local AI/editor settings
+.claude/
+
+# Runtime/temp files
+apps/client/temp/

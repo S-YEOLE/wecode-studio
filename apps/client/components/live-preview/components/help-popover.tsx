@@ -5,7 +5,7 @@
  * - Pre-installed libraries list
  * - External links
  *
- * By Dulapah Vibulsanti (https://dulapahv.dev)
+ * Customized and extended by Shruti Yeole as part of a Final Year Major Project.
  */
 
 import { CircleHelp } from 'lucide-react';
@@ -60,7 +60,7 @@ const HelpPopover = () => (
                 </li>
                 <li>
                   <a
-                    href="https://github.com/dulapahv/CodeX/blob/main/manual.md#live-preview-example"
+                    href="https://github.com/S-YEOLE/wecode-studio/blob/main/manual.md#live-preview-example"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-foreground hover:text-muted-foreground inline-flex items-center gap-1 underline

@@ -6,44 +6,45 @@
  * - OAuth credentials
  * - App metadata
  *
- * By Dulapah Vibulsanti (https://dulapahv.dev)
+ * Customized and extended by Shruti Yeole as part of a Final Year Major Project.
+
  */
 
 export const IS_DEV_ENV =
-  process.env.VERCEL_ENV === 'development' ||
-  process.env.NEXT_PUBLIC_ENV === 'development' ||
-  process.env.NODE_ENV === 'development';
+  typeof window !== 'undefined' &&
+  window.location.hostname === 'localhost';
 
-export const BASE_CLIENT_URL = IS_DEV_ENV ? 'http://localhost:3000' : 'https://codex.dulapahv.dev';
-export const BASE_SERVER_URL = IS_DEV_ENV
-  ? 'http://localhost:3001'
-  : 'https://codex-server.dulapahv.dev';
 
-export const STATUS_URL = 'https://codex-status.dulapahv.dev';
+export const BASE_CLIENT_URL = 'http://localhost:3000';
+export const BASE_SERVER_URL = 'http://localhost:3001';
+
+export const STATUS_URL = '';
+
 export const KASCA_SERVER_MONITOR_ID = '2887417';
 
 export const GITHUB_API_URL = 'https://api.github.com';
 export const GITHUB_OAUTH_URL = 'https://github.com/login/oauth';
-export const GITHUB_CLIENT_ID = IS_DEV_ENV ? 'Ov23liuy4d9jGnpy9t6j' : 'Ov23liIuxEK1vcaIKIxP';
-export const GITHUB_CLIENT_SECRET = IS_DEV_ENV
-  ? process.env.GITHUB_CLIENT_SECRET_DEV
-  : process.env.GITHUB_CLIENT_SECRET_PROD;
+export const GITHUB_CLIENT_ID = "Ov23liLqZcu7mKwwgL90";
+export const GITHUB_CLIENT_SECRET = "cf4c522bc458aea47e589b3dff414335dabb1b00";
+
 
 export const NAME_MAX_LENGTH = 64;
 
-export const SITE_NAME = 'CodeX - Code Collaboration Platform';
+export const SITE_NAME = 'WeCode Studio';
 export const SITE_DESCRIPTION =
-  'Your collaborative coding space, reimagined. Code together now on CodeX, no sign-up required.';
+  'WeCode Studio is a real-time collaborative coding platform developed as a final year major project.';
+
 export const INVITED_DESCRIPTION = 'You have been invited to a coding session. Happy coding!';
 export const LATENCY_TEST_TITLE = 'Server Latency Test';
-export const LATENCY_TEST_DESCRIPTION = 'Test your latency to the CodeX server.';
+export const LATENCY_TEST_DESCRIPTION = 'Test your latency to the WeCode Studio server.';
 export const GITHUB_OAUTH_TITLE = 'GitHub OAuth Callback';
 export const GITHUB_OAUTH_DESCRIPTION = 'This page is used to handle the GitHub OAuth callback.';
-export const NAME = 'Dulapah Vibulsanti';
-export const PORTFOLIO_URL = 'https://dulapahv.dev';
-export const CONTACT_URL = 'https://dulapahv.dev/contact';
-export const REPO_URL = 'https://github.com/dulapahv/codex';
-export const GITHUB_URL = 'https://github.com/dulapahv';
+export const NAME = 'Shruti Yeole';
+export const PORTFOLIO_URL = ''; // optional: add LinkedIn/GitHub later
+export const CONTACT_URL = '';
+export const REPO_URL = 'https://github.com/S-YEOLE/wecode-studio';
+export const GITHUB_URL = 'https://github.com/S-YEOLE';
+
 
 export const EDITOR_SETTINGS_KEY = 'editor-settings';
 

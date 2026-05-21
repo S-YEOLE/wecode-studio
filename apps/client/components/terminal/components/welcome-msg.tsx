@@ -5,7 +5,7 @@
  * - Usage instructions
  * - Terminal formatting
  *
- * By Dulapah Vibulsanti (https://dulapahv.dev)
+ * Customized and extended by Shruti Yeole as part of a Final Year Major Project.
  */
 
 import Image from 'next/image';
@@ -17,7 +17,7 @@ const WelcomeMsg = () => (
     <div className="flex items-center gap-2 text-green-500">
       <Image
         src="/images/codex-logo.svg"
-        alt="CodeX Logo"
+        alt="WeCode Studio Logo"
         className="size-5"
         width="16"
         height="16"

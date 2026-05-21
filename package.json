@@ -52,7 +52,7 @@
   "packageManager": "pnpm@9.15.4",
   "pnpm": {
     "patchedDependencies": {
-      "monaco-themes": "patches/monaco-themes.patch"
+      "monaco-themes@0.4.8": "patches/monaco-themes@0.4.8.patch"
     }
   }
 }

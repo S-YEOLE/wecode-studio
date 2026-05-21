@@ -5,7 +5,7 @@
  * - Output formatting
  * - Socket messaging
  *
- * By Dulapah Vibulsanti (https://dulapahv.dev)
+ * Customized and extended by Shruti Yeole as part of a Final Year Major Project.
  */
 
 import type { Dispatch, RefObject, SetStateAction } from 'react';
@@ -129,7 +129,7 @@ export const executeCode = async (
 
     if (!response.ok) {
       throw new Error(
-        `HTTP error! status: ${response.status}\nThis language may not be supported or the server is down.\nList of supported languages: https://github.com/dulapahv/CodeX/blob/main/manual.md#supported-execution-languages.`
+        `HTTP error! status: ${response.status}\nThis language may not be supported or the server is down.\nList of supported languages: https://github.com/S-YEOLE/wecode-studio/blob/main/manual.md#supported-execution-languages.`
       );
     }
 

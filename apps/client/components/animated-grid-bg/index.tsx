@@ -6,7 +6,7 @@
  * - Mouse-based parallax
  * - Dynamic sizing
  *
- * By Dulapah Vibulsanti (https://dulapahv.dev)
+ * 
  */
 
 'use client';

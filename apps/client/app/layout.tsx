@@ -7,7 +7,7 @@
  * - Toast notifications
  * - Analytics
  *
- * By Dulapah Vibulsanti (https://dulapahv.dev)
+ * Customized and extended by Shruti Yeole as part of a Final Year Major Project.
  */
 
 import type { Metadata, Viewport } from 'next';
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   applicationName: SITE_NAME,
   referrer: 'origin-when-cross-origin',
   keywords:
-    'codex, code collaboration, real-time coding, pair programming, remote collaboration, live coding, code sharing, collaborative editor, monaco editor, cursor sharing, live preview, video chat, collaborative terminal, shared terminal, code execution, GitHub integration, web IDE, online IDE, collaborative development, coding platform, programming tools',
+    'wecode studio, code collaboration, real-time coding, pair programming, remote collaboration, live coding, code sharing, collaborative editor, monaco editor, cursor sharing, live preview, video chat, collaborative terminal, shared terminal, code execution, GitHub integration, web IDE, online IDE, collaborative development, coding platform, programming tools',
   creator: NAME,
   publisher: NAME,
   authors: {
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    creator: '@dulapahv'
+    creator: '@S-YEOLE'
   },
   alternates: {
     canonical: BASE_CLIENT_URL
